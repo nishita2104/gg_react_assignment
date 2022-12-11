@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+}
+.app {
+  height: auto;
+  min-height: 100vh;
+  position: relative;
+  background: linear-gradient(
+      180deg,
+      rgba(21, 192, 192, 0.2) 0%,
+      rgba(3, 26, 31, 0.2) 100%
+    ),
+    #050967;
+  background-repeat: repeat-x;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+.logo {
+  position: relative;
+  width: 139.25px;
+  height: 140px;
+
+  align-self: center;
+}
+.heading {
+  position: relative;
+
+  font-family: "Crimson Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 85px;
+
+  color: #faff00;
+}
+.lh {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 45px;
+}
+.upper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.subheading {
+  position: relative;
+  /* width: 1048px; */
+  /* height: 57px; */
+
+  font-family: "Crimson Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.searchbar {
+  width: 896px;
+  position: relative;
+  height: 45px;
+
+  background: #d9d9d9;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  font-family: "Crimson Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+}
+::placeholder {
+  font-family: "Crimson Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+
+  color: rgba(0, 0, 0, 0.49);
+}
+.chxs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  margin-bottom: 40px;
+}
+.checkbox {
+  position: relative;
+  width: 25px;
+  height: 25px;
+
+  background: #d9d9d9;
+  border-radius: 8px;
+}
+.chxdesc p {
+  position: relative;
+  /* width: 93px; */
+  /* height: 47px; */
+
+  font-family: "Crimson Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+
+  color: #faff00;
+  margin-left: 8px;
+}
+.chxdesc {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.submit {
+  position: relative;
+  width: 150px;
+  height: 35px;
+
+  background: #faff00;
+  border-radius: 15px;
+
+  font-family: "Crimson Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+
+  color: #050967;
+  margin-bottom: 40px;
+}
+.pt {
+  display: flex;
+  flex-direction: row;
+  border: 0px;
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.poster {
+  position: relative;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  /* align-self: center; */
+  margin-right: 20px;
+  border: 9px solid #ffffff;
+}
+.clicktext {
+  position: relative;
+  width: 549px;
+  height: 47px;
+
+  font-family: "Crimson Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+
+  color: #ffffff;
+}
+.poster2 {
+  position: relative;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  /* align-self: center; */
+  margin-right: 20px;
+  border: 9px solid #ffffff;
+}
+.details {
+  display: flex;
+}
+.details p {
+  position: relative;
+  /* width: 93px; */
+  /* height: 47px; */
+
+  font-family: "Crimson Text";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: white;
+  margin-left: 8px;
+}
+.another {
+  position: relative;
+  width: 250px;
+  height: 35px;
+
+  background: #faff00;
+  border-radius: 15px;
+
+  font-family: "Crimson Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+
+  color: #050967;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
